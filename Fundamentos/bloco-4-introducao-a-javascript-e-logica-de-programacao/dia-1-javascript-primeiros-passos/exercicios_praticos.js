@@ -1,7 +1,7 @@
-const a = 2;
-const b = 4;
-
 //Parte 1
+//const a = 2;
+//const b = 4;
+
 // let soma = a + b;
 // console.log ("Soma: " + (soma));
 // let subtracao = a - b; 
@@ -13,9 +13,26 @@ const b = 4;
 // let modulo = a % b; 
 // console.log ("Modulo: " + (modulo)); 
 
-// //Parte 2
-if (a > b) {
-    console.log ("Então A é maior");
+//Parte 2
+//const a = 8;
+//const b = 2;
+
+// if (a > b) {
+//     console.log ("Então A é maior");
+// } else {
+//     console.log ("Então B é maior");
+// }
+
+//Parte 3
+const a = 7;
+const b = 18;
+const c = 9;
+
+if (a > b && a > c) {
+    console.log ("O maior numero é: " + (a));
+} else if (b > a && b > c) {
+    console.log ("O maior numero é: " + (b));
 } else {
-    console.log ("Então B é maior");
+    console.log ("O maior numero é: " + (c));
 }
+
