@@ -1,0 +1,19 @@
+h1, p {
+    text-align: center;
+}
+
+ol li:hover {
+    background-color: lightsalmon;
+}
+
+ul li:hover {
+    background-color: lightgreen;
+}
+
+li:active {
+    color: rgb(13, 14, 13);
+}
+
+li {
+    list-style: none;
+}
