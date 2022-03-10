@@ -1,5 +1,12 @@
 // 1. Faça um algoritmo que calcule a soma de 50 a 100 usando a estrutura “for” e retorne no formato:
 // A soma de 50 a 100 é: X.
+let soma = 0;
+for (let index = 50; index <= 100; index += 1) {
+  soma += index;
+} 
+console.log ("A soma de 50 a 100 é: ", soma);
+
+
 // let soma = 0;
 // for (let index = 50; index <= 100; index += 1) {
 //   // console.log(index);
@@ -49,14 +56,14 @@
 
 // 5. Crie um algoritmo que recebe a idade de Marcella, Carlos e Camila e imprima quem é a mais nova no formato:
 // “Pessoa” é a mais nova.
-let Marcella = 22
-let Carlos = 54
-let Camila = 32
-if (Marcella < Carlos && Marcella < Camila) {
-  console.log("Marcella é a mais nova")
-}
-else if (Carlos < Camila && Carlos < Marcella) {
-  console.log("Carlos é o mais novo")
-}
-else {console.log("Camila é a mais nova")}
+// let Marcella = 22
+// let Carlos = 54
+// let Camila = 32
+// if (Marcella < Carlos && Marcella < Camila) {
+//   console.log("Marcella é a mais nova")
+// }
+// else if (Carlos < Camila && Carlos < Marcella) {
+//   console.log("Carlos é o mais novo")
+// }
+// else {console.log("Camila é a mais nova")}
 
