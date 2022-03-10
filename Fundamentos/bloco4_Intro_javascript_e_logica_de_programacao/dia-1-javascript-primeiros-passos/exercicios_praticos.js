@@ -24,15 +24,25 @@
 // }
 
 //Parte 3
-const a = 7;
-const b = 18;
-const c = 9;
+// const a = 7;
+// const b = 18;
+// const c = 9;
 
-if (a > b && a > c) {
-    console.log ("O maior numero é: " + (a));
-} else if (b > a && b > c) {
-    console.log ("O maior numero é: " + (b));
+// if (a > b && a > c) {
+//     console.log ("O maior numero é: " + (a));
+// } else if (b > a && b > c) {
+//     console.log ("O maior numero é: " + (b));
+// } else {
+//     console.log ("O maior numero é: " + (c));
+// }
+
+//Parte 4
+const valor = -29;
+if (valor > 0) {
+    console.log ("Positive");
+} else if (valor < 0) {
+    console.log ("Negative");
 } else {
-    console.log ("O maior numero é: " + (c));
+    console.log ("Zero");
 }
 
