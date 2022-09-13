@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  <meta charset="UTF-8">
+  <title>Navegando pelas aguas do DOM</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <h1>Melhores livros do Mundo!</h1>
+      <h3 id='h3'>Não aceito opiniões a respeito, obrigado!</h3>
+      <div id="divInput">
+        <label>Escolha um livro para entrar no hall de melhores livros do mundo.</label>
+        <input type="text" id="input"/>
+        <button id="inputbutton">Click</button>
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <div class="Maravilhoso top" id="divUm"><strong>O senhor dos aneis</strong></div>
+        <div id="divDois">Cronicas do matador do rei</div>
+        <div id="divTres">O mago</div>
+      </div>
+      <!-- <div class="container nodes">
+          <div class="teste" id="divQuatro">A saga do assassino</div>
+          <div class="teste" id="divCinco">As cronicas de Artur</div>
+          <div class="teste" id="divSeis">As cronicas saxonicas</div>
+      </div> -->
+      <div class="container nodes">
+          <div class="teste" id="divSete">Clicando no botão do input meu nome muda.</div>
+          <div class="teste" id="divOito">Clicando 2x aqui eu copio o nome do melhor livro.</div>
+          <div class="teste" id="divNove">Clicando 2x aqui eu mudo o texto do H3</div>
+      </div>
+    </div>
+    <div>
+        <button id='byId'>Botao by id</button>
+        <button id='byTag'>Botao by tag</button>
+        <button id='byClass'>Botao by class</button>
+        <button id='queryId'>Botao queryID</button>
+        <button id='queryAll'>Botao queryAll</button>
+        <button id='queryClass'>Botao queryClass</button>
+        <button id='addNoStorage'>Botao add no storage</button>
+        <button id='pegaDoStorage'>Botao recupera do storage</button>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
